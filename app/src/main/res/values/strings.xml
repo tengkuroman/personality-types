@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Personality Types</string>
+    <string name="personality_types">Personality Types</string>
+    <string name="about">About</string>
+    <string name="logo_description">16 Personalities Logo</string>
+    <string name="name">Tengku Romansyah</string>
+    <string name="about_text">Tengku Romansyah is an undergraduate student at Institut Teknologi Bandung. He is pursuing undergraduate degree under Faculty of Industrial Technology. He decided to take course on industrial technology because of his interest on industrial scale-up and automation. Roman wants to be an engineer who brings better industrial sector in Indonesia, especially chemical industry.</string>
+    <string name="email_text">Email: tengku.romansyah@gmail.com</string>
 </resources>
