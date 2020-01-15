@@ -25,10 +25,31 @@
             android:textColor="@android:color/black"
             android:text="@string/name"/>
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/about_author_text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="left"/>
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
-            android:text="@string/about_text"/>
+            android:text="@string/about_author_value"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_app_text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/about_app_value"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
