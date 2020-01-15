@@ -21,12 +21,14 @@
             android:id="@+id/btn_personality_types"
             android:text="@string/personality_types"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored" />
         <Button
             android:id="@+id/btn_about"
             android:text="@string/about"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
