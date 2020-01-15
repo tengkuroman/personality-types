@@ -54,6 +54,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:text="@string/contact_text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/email_text"
             android:textColor="@android:color/black"
             android:layout_gravity="left"/>

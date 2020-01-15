@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // define about button
         Button btnAbout = findViewById(R.id.btn_about);
         btnAbout.setOnClickListener(this);
+
+        // define personality button
+        Button btnPersonality = findViewById(R.id.btn_personality_types);
+        btnPersonality.setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_about:
                 Intent moveToAbout = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(moveToAbout);
+                break;
+            case R.id.btn_personality_types:
+                Intent moveToPersonality = new Intent(MainActivity.this, PersonalityActivity.class);
+                startActivity(moveToPersonality);
                 break;
         }
     }
