@@ -20,6 +20,25 @@ public class PersonalitiesData {
             "Entertainer"
     };
 
+    private static String[] personalityDescriptions = {
+            "Imaginative and strategic thinkers, with a plan for everything.",
+            "Innovative inventors with an unquenchable thirst for knowledge.",
+            "Bold, imaginative and strong-willed leaders, always finding a way – or making one.",
+            "Smart and curious thinkers who cannot resist an intellectual challenge.",
+            "Quiet and mystical, yet very inspiring and tireless idealists.",
+            "Poetic, kind and altruistic people, always eager to help a good cause.",
+            "Charismatic and inspiring leaders, able to mesmerize their listeners.",
+            "Enthusiastic, creative and sociable free spirits, who can always find a reason to smile.",
+            "Practical and fact-minded individuals, whose reliability cannot be doubted.",
+            "Very dedicated and warm protectors, always ready to defend their loved ones.",
+            "Excellent administrators, unsurpassed at managing things – or people.",
+            "Extraordinarily caring, social and popular people, always eager to help.",
+            "Bold and practical experimenters, masters of all kinds of tools.",
+            "Flexible and charming artists, always ready to explore and experience something new.",
+            "Smart, energetic and very perceptive people, who truly enjoy living on the edge.",
+            "Spontaneous, energetic and enthusiastic people – life is never boring around them."
+    };
+
     private static int[] coverImages = {
             R.drawable.cover_architect,
             R.drawable.cover_logician,
@@ -56,7 +75,7 @@ public class PersonalitiesData {
             R.drawable.ic_entertainer,
     };
 
-    private static String[] detailDescription = {
+    private static String[] detailDescriptions = {
     };
 
 
