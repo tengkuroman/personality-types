@@ -1,5 +1,7 @@
 package com.example.personalitytypes;
 
+import java.util.ArrayList;
+
 public class PersonalitiesData {
     private static String[] personalityNames = {
             "Architect",
@@ -94,5 +96,18 @@ public class PersonalitiesData {
             "If anyone is to be found spontaneously breaking into song and dance, it is the Entertainer personality type. Entertainers get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as Entertainers when it comes to encouraging others, and no other personality type does it with such irresistible style."
     };
 
+    static ArrayList<Personality> getListData() {
+        ArrayList<Personality> list = new ArrayList<>();
+        for (int position = 0; position < personalityNames.length; position++) {
+            Personality personality = new Personality();
+            personality.setPersonalityName(personalityNames[position]);
+            personality.setCoverDescription(personalityDescriptions[position]);
+            personality.setCoverPhoto(coverImages[position]);
+            personality.setDetailPhoto(detailImages[position]);
+            personality.setDetailDescription(detailDescriptions[position]);
+            list.add(personality);
+        }
+        return list;
+    }
 
 }
