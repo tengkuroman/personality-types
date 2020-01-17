@@ -44,6 +44,7 @@ public class PersonalityActivity extends AppCompatActivity {
         Intent moveToPersonalityDetail = new Intent(PersonalityActivity.this, PersonalityDetailActivity.class);
         moveToPersonalityDetail.putExtra(PersonalityDetailActivity.EXTRA_PERSONALITY_NAME, personality.getPersonalityName());
         moveToPersonalityDetail.putExtra(PersonalityDetailActivity.EXTRA_DETAIL_PERSONALITY_DESCRIPTION, personality.getDetailDescription());
+        moveToPersonalityDetail.putExtra(PersonalityDetailActivity.EXTRA_DETAIL_PERSONALITY_PHOTO, personality.getDetailPhoto());
         startActivity(moveToPersonalityDetail);
     }
 }
