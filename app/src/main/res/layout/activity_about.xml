@@ -31,7 +31,7 @@
             android:text="@string/about_author_text"
             android:textColor="@android:color/black"
             android:textStyle="bold"
-            android:layout_gravity="left"/>
+            android:layout_gravity="start"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
             android:text="@string/about_app_text"
             android:textColor="@android:color/black"
             android:textStyle="bold"
-            android:layout_gravity="left"/>
+            android:layout_gravity="start"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,13 +57,13 @@
             android:text="@string/contact_text"
             android:textColor="@android:color/black"
             android:textStyle="bold"
-            android:layout_gravity="left"/>
+            android:layout_gravity="start"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/email_text"
             android:textColor="@android:color/black"
-            android:layout_gravity="left"/>
+            android:layout_gravity="start"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

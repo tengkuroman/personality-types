@@ -13,4 +13,5 @@
     <string name="personality_type">Personality Type</string>
     <string name="personality_cover_description">Personality Cover Description</string>
     <string name="detail_description">Detail Description</string>
+    <string name="detail_image_description">Detail personality image</string>
 </resources>

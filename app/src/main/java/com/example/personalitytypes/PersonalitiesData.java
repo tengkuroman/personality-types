@@ -2,7 +2,7 @@ package com.example.personalitytypes;
 
 import java.util.ArrayList;
 
-public class PersonalitiesData {
+class PersonalitiesData {
     private static String[] personalityNames = {
             "Architect",
             "Logician",

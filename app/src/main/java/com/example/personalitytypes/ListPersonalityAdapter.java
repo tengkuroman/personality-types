@@ -1,6 +1,5 @@
 package com.example.personalitytypes;
 
-import android.app.Person;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,13 +17,13 @@ import java.util.ArrayList;
 public class ListPersonalityAdapter extends RecyclerView.Adapter<ListPersonalityAdapter.ListViewHolder> {
     private ArrayList<Personality> listPersonality;
 
-    public ListPersonalityAdapter(ArrayList<Personality> list) {
+    ListPersonalityAdapter(ArrayList<Personality> list) {
         this.listPersonality = list;
     }
 
     private OnItemClickCallback onItemClickCallback;
 
-    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+    void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback;
     }
 
@@ -62,10 +61,10 @@ public class ListPersonalityAdapter extends RecyclerView.Adapter<ListPersonality
         return listPersonality.size();
     }
 
-    public class ListViewHolder extends RecyclerView.ViewHolder {
+    class ListViewHolder extends RecyclerView.ViewHolder {
         ImageView coverPhoto;
         TextView personalityName, coverDescription;
-        public ListViewHolder(@NonNull View itemView) {
+        ListViewHolder(@NonNull View itemView) {
             super(itemView);
             coverPhoto = itemView.findViewById(R.id.tv_cover_photo);
             personalityName = itemView.findViewById(R.id.tv_personality_name);

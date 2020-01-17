@@ -12,14 +12,16 @@
         android:layout_height="70dp"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp"
-        tools:src="@android:color/darker_gray" />
+        tools:src="@android:color/darker_gray"
+        tools:ignore="RtlHardcoded" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/tv_cover_photo"
         android:layout_toRightOf="@id/tv_cover_photo"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
         <TextView
             android:id="@+id/tv_personality_name"
             android:layout_width="match_parent"
