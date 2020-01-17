@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -34,12 +35,15 @@ public class PersonalityActivity extends AppCompatActivity {
         listPersonalityAdapter.setOnItemClickCallback(new ListPersonalityAdapter.OnItemClickCallback() {
             @Override
             public void onItemClicked(Personality personality) {
-                showSelectedHero(personality);
+                viewPersonalityDetail(personality);
             }
         });
     }
 
-    private void showSelectedHero(Personality personality) {
-        Toast.makeText(this, "Kamu memilih " + personality.getPersonalityName(), Toast.LENGTH_SHORT).show();
+    private void viewPersonalityDetail(Personality personality) {
+        Intent moveToPersonalityDetail = new Intent(PersonalityActivity.this, PersonalityDetailActivity.class);
+        moveToPersonalityDetail.putExtra(PersonalityDetailActivity.EXTRA_PERSONALITY_NAME, personality.getPersonalityName());
+        moveToPersonalityDetail.putExtra(PersonalityDetailActivity.EXTRA_DETAIL_PERSONALITY_DESCRIPTION, personality.getDetailDescription());
+        startActivity(moveToPersonalityDetail);
     }
 }

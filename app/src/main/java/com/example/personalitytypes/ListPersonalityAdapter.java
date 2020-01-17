@@ -63,8 +63,8 @@ public class ListPersonalityAdapter extends RecyclerView.Adapter<ListPersonality
     }
 
     public class ListViewHolder extends RecyclerView.ViewHolder {
-        ImageView coverPhoto, detailPhoto;
-        TextView personalityName, coverDescription, detailDescription;
+        ImageView coverPhoto;
+        TextView personalityName, coverDescription;
         public ListViewHolder(@NonNull View itemView) {
             super(itemView);
             coverPhoto = itemView.findViewById(R.id.tv_cover_photo);
