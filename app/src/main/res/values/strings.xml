@@ -11,5 +11,6 @@
     <string name="about_app_text">About App</string>
     <string name="contact_text">Contact</string>
     <string name="personality_type">Personality Type</string>
-    <string name="personality_type">Personality Type</string>
+    <string name="personality_cover_description">Personality Cover Description</string>
+    <string name="detail_description">Detail Description</string>
 </resources>

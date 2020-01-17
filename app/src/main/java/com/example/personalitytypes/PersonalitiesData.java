@@ -98,7 +98,7 @@ public class PersonalitiesData {
 
     static ArrayList<Personality> getListData() {
         ArrayList<Personality> list = new ArrayList<>();
-        for (int position = 0; position < personalityNames.length; position++) {
+        for (int position = 0; position < personalityNames.length-1; position++) {
             Personality personality = new Personality();
             personality.setPersonalityName(personalityNames[position]);
             personality.setCoverDescription(personalityDescriptions[position]);

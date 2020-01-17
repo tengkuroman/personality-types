@@ -8,8 +8,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/tv_cover_photo"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp"
         tools:src="@android:color/darker_gray" />
@@ -24,17 +24,17 @@
             android:id="@+id/tv_personality_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@android:color/black"
             tools:text="@string/personality_type" />
         <TextView
             android:id="@+id/tv_cover_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="2"
-            tools:text="" />
+            android:textColor="@android:color/black"
+            tools:text="@string/personality_cover_description" />
     </LinearLayout>
 
 </RelativeLayout>
